@@ -43,18 +43,23 @@ function mostrarDatosClima(data){
     //mostrar los datos a las etiquetas *******************
 
     const nombrePaisInfo = document.createElement('h2')
-    nombrePaisInfo.textContent = nombrePais
+    nombrePaisInfo.className = 'datosClima'
+    nombrePaisInfo.textContent = 'Pais:  '+nombrePais
+
 
     //Creamos un h2 desde javascript y asignamo el valor
-    const ciudadTitulo = document.createElement('h3')
-    ciudadTitulo.textContent = ciudadNombre 
+    const ciudadTitulo = document.createElement('p')
+    ciudadTitulo.className = 'datosClima'
+    ciudadTitulo.textContent = 'Ciudad:  '+ciudadNombre 
 
     //Temperaura de la ciudad
     const temperaturaInfo = document.createElement('p')
+    temperaturaInfo.className = 'datosClima'
     //Math.floor permite redondear los decimales hacia abajo
-    temperaturaInfo.textContent = 'La temparatura es '+ Math.floor(temperatura - restanteKelvin)+'°C' 
+    temperaturaInfo.textContent = 'La temparatura es:  '+ Math.floor(temperatura - restanteKelvin)+'°C' 
 
     const descripcionCiudad = document.createElement('p')
+    descripcionCiudad.className = 'datosClima'
     descripcionCiudad.textContent = 'La descripcion meteorologica es: ' + descripcion
 
     //appendChil es un funcion que nos permite meter div hijos a div padres solamnete si son creados de js
