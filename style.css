@@ -50,14 +50,14 @@ body, html {
   height: 80%;
   width: 70%;
   border-radius: 20px;
-  background-color: rgba(30, 138, 238, 0.555);
+  background-color: rgba(157, 157, 158, 0.411);
 }
 
 .contenedorClima2{
   height: 80%;
   width: 60%;
   border-radius: 20px;   
-  background-color: rgba(30, 138, 238, 0.555);
+  background-color: rgba(157, 157, 158, 0.411);
 }
 
 
@@ -73,7 +73,7 @@ body, html {
 .contenedorClima1 input{
   border: none;
   border-radius: 5px;
-  width: 60%;
+  width: 67%;
   height:38px;
   padding-left: 20px;
   margin-top: 20px;
@@ -85,6 +85,9 @@ body, html {
   border: none;
   border-radius: 5px;
   height: 38px;
+  width:40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
 }
 
 .columnaPrincipal2 h4{
@@ -94,6 +97,12 @@ body, html {
   margin-left: 45px;
   text-align: left;
 }
+.datosClima{
+  background-color: rgba(157, 157, 158, 0.411);
+  border-radius: 10px;
+ padding: 10px;
+ margin-top: 10px;
+}
 
 .datosClima h2{
 
@@ -101,6 +110,7 @@ body, html {
   margin-top: 30px;
   color: white;
   font-size: 20px;
+  
 
 }
 
@@ -109,7 +119,7 @@ body, html {
   text-wrap: wrap;
   margin-top: 20px;
   text-align: left;
-  margin-left: 30px;
+  
   color: white;
   font-size: 17px;
 

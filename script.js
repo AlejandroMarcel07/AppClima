@@ -54,13 +54,14 @@ function mostrarDatosClima(data){
 
     //Temperaura de la ciudad
     const temperaturaInfo = document.createElement('p')
-    temperaturaInfo.className = 'datosClima'
+    temperaturaInfo.className = 'datosClima' 
     //Math.floor permite redondear los decimales hacia abajo
-    temperaturaInfo.textContent = 'La temparatura es:  '+ Math.floor(temperatura - restanteKelvin)+'°C' 
+    temperaturaInfo.textContent = 'Temperatura  '+ Math.floor(temperatura - restanteKelvin)+'°C' 
 
     const descripcionCiudad = document.createElement('p')
     descripcionCiudad.className = 'datosClima'
-    descripcionCiudad.textContent = 'La descripcion meteorologica es: ' + descripcion
+    descripcionCiudad.textContent = 'Descripcion meteorologica: ' + descripcion
+    
 
     //appendChil es un funcion que nos permite meter div hijos a div padres solamnete si son creados de js
      divDatosClima.appendChild(nombrePaisInfo)
